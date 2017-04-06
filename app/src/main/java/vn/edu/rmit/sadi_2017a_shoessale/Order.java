@@ -5,9 +5,6 @@ import android.location.Address;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by duale on 6/4/2017.
- */
 
 class Order {
     private int orderID;
@@ -21,7 +18,7 @@ class Order {
     private Address shippingAddress;
 
     //    TODO: hỏi Tú cho phép mình tách address ra thành country, tỉnh/thành, quận
-    public Order(int cartID, String shipAddLine, String shipAddCountry, String shipAddProv, String shipAddDis) {
+    Order(int cartID, String shipAddLine, String shipAddCountry, String shipAddProv, String shipAddDis) {
         this.cartID = cartID;
         this.dateCreated = new Date();
         this.dateShipped = null;

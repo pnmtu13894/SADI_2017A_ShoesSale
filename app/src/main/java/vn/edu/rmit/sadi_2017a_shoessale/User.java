@@ -1,8 +1,5 @@
 package vn.edu.rmit.sadi_2017a_shoessale;
 
-/**
- * Created by duale on 5/4/2017.
- */
 
 abstract class User {
     //    TODO: Tú implement userID as String
@@ -15,7 +12,7 @@ abstract class User {
     //    TODO: ask Tu if I can change login status to boolean
     private boolean login_status;
 
-    public User(String firstName, String lastName, String email, String password, boolean login_status) {
+    User(String firstName, String lastName, String email, String password, boolean login_status) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;

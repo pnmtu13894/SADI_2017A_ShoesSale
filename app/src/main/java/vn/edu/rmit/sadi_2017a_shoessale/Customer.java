@@ -4,9 +4,6 @@ import android.location.Address;
 
 import java.util.Date;
 
-/**
- * Created by duale on 6/4/2017.
- */
 
 class Customer extends User {
     //    TODO: how to implement ID co dang la String thay vi int?
@@ -19,7 +16,7 @@ class Customer extends User {
     //    TODO: hoi Tu co dong y cho dung class Address cua Android de specifically store address hay khong
     private Address address;
 
-    public Customer(int phoneNumber, Date dateOfBirth, Address address, String firstName, String lastName, String email, String password, boolean login_status) {
+    Customer(int phoneNumber, Date dateOfBirth, Address address, String firstName, String lastName, String email, String password, boolean login_status) {
         super(firstName, lastName, email, password, login_status);
         this.phoneNumber = phoneNumber;
         this.email = email;

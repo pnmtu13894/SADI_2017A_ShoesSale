@@ -1,13 +1,10 @@
 package vn.edu.rmit.sadi_2017a_shoessale;
 
-/**
- * Created by duale on 6/4/2017.
- */
 
 class Facilitator extends User {
     private String facilitatorID;
 
-    public Facilitator(String firstName, String lastName, String email, String password, boolean login_status) {
+    Facilitator(String firstName, String lastName, String email, String password, boolean login_status) {
         super(firstName, lastName, email, password, login_status);
 //        TODO: set facilitatorID
     }

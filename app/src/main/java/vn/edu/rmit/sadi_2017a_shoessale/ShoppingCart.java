@@ -2,9 +2,6 @@ package vn.edu.rmit.sadi_2017a_shoessale;
 
 import java.util.Date;
 
-/**
- * Created by duale on 6/4/2017.
- */
 
 class ShoppingCart {
     private int cartID;
@@ -12,7 +9,7 @@ class ShoppingCart {
     //    TODO: noi tu dateAdded phai la class Date
     private Date dateAdded;
 
-    public ShoppingCart(String customerID) {
+    ShoppingCart(String customerID) {
         this.customerID = customerID;
         this.dateAdded = new Date();
 //        TODO: set cartID tu dong
