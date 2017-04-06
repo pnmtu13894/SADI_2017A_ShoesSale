@@ -15,6 +15,15 @@ abstract class User {
     //    TODO: ask Tu if I can change login status to boolean
     private boolean login_status;
 
+    public User(String firstName, String lastName, String email, String password, boolean login_status) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.password = password;
+        this.login_status = login_status;
+//        TODO: set userID
+    }
+
     public void verifyLogin() {
 //        TODO: to implement
     }
