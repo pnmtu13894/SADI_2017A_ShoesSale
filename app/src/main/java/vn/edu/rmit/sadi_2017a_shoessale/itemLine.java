@@ -12,7 +12,8 @@ class itemLine {
         this.quantity = quantity;
     }
 
-    //    TODO: nói Tú không thể để unitPrice là attribute của itemLine được vì giá trị này sẽ được get từ productID
+    //    TODO: nói Tú không thể để unitPrice là attribute của itemLine được vì giá trị này sẽ được get từ productID // Hien tai thi minh
+    // chua co attribute unitPrice ben product, nen em tam. thoi` de ben day a.
 //    private float unitprice
     public double calcPrice() {
 //        TODO: to implement

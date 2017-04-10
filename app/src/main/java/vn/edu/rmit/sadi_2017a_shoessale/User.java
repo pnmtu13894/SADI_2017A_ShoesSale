@@ -9,7 +9,7 @@ abstract class User {
     private String email;
     //    TODO: encrypt password http://stackoverflow.com/questions/12937641/handling-passwords-used-for-auth-in-source-code
     private String password;
-    //    TODO: ask Tu if I can change login status to boolean
+    //    TODO: ask Tu if I can change login status to boolean // Ok anh
     private boolean login_status;
 
     User(String firstName, String lastName, String email, String password, boolean login_status) {

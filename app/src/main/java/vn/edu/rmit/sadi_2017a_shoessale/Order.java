@@ -11,10 +11,10 @@ class Order {
     private int cartID;
     private Date dateCreated;
     private Date dateShipped;
-    //    TODO: hoi Tu tai sao lai chua field customerID khi co the get field nay tu orderID
+    //    TODO: hoi Tu tai sao lai chua field customerID khi co the get field nay tu orderID // Ok anh, minh co the get no tu` Shopping Cart
 //    private String customerID;
     private String status;
-    //    TODO: hoi y kien tu ve su dung class Address de chua class Address
+    //    TODO: hoi y kien tu ve su dung class Address de chua class Address // Y' anh la xai google Api Address Location?
     private Address shippingAddress;
 
     //    TODO: hỏi Tú cho phép mình tách address ra thành country, tỉnh/thành, quận

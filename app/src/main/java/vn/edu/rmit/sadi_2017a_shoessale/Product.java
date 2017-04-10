@@ -11,7 +11,7 @@ abstract class Product {
     private float price;
     private String brand;
     private Date releaseDate;
-    //    TODO: discuss với TÚ về việc sẽ có đến mấy cái hình ứng với 1 product chư không phải 1 nên cần dùng Set
+    //    TODO: discuss với TÚ về việc sẽ có đến mấy cái hình ứng với 1 product chư không phải 1 nên cần dùng Set // Ok anh
     private HashSet<URI> imageFileName;
 
     Product(String name, String description, float price, String brand, Date releaseDate, HashSet<URI> imageFileName) {
